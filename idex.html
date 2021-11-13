@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="f.css">
+	<script type="text/javascript" src="voila.js"></script>
+	<head>
+			<title>SoundBoard par moi</title>
+	</head>
+	<body>
+		<div id="doc">
+        	<h1>
+                <i>Ma Soundboard</i>
+            </h1>
+        <!-- JS here to prevent 'flash' of all the default audio players -->
+        	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        	<script type="text/javascript" charset="utf-8">
+          		$(function() {
+               		$("audio").removeAttr("controls").each(function(i, audioElement) {
+                    	var audio = $(this);
+                    	var that = this; //closure to keep reference to current audio tag
+                    	$("#doc").append($('<button>'+audio.attr("title")+'</button>').click(function(){
+                        	that.play();
+                    	}));
+                	});
+            	});
+        	</script>
+    	    <audio src="clips/ouais.mp3" controls autobuffer="true" title="Ouais Ouais Ouais"></audio>
+    	    <audio src="clips/tg.mp3" controls autobuffer="true" title="Ta gueule fanta"></audio>
+    	    <audio src="clips/URSS.mp3" controls autobuffer="true" title="URSS"></audio>
+    	    <audio src="clips/Jeanne.mp3" controls autobuffer="true" title="Jeanne au secours"></audio>
+    	    <audio src="clips/issou.mp3" controls autobuffer="true" title="issou"></audio>
+    	    <audio src="clips/guillaume.mp3" controls autobuffer="true" title="Aie coup dur pour Guillaume"></audio>
+    	    <audio src="clips/sd.mp3" controls autobuffer="true" title="Mais qu'est ce que c'est ce truc là"></audio>
+    	    <audio src="clips/jc.mp3" controls autobuffer="true" title="John Cena"></audio>
+    	    <audio src="clips/bien-evidemment.mp3" controls autobuffer="true" title="bien evidemment"></audio>
+    	    <audio src="clips/Miaou.mp3" controls autobuffer="true" title="Miaou Miaou negga"></audio>
+		    <audio src="clips/eglise.mp3" controls autobuffer="true" title="Divin"></audio>
+		    <audio src="clips/fbi.mp3" controls autobuffer="true" title="Fbi"></audio>
+		    <audio src="clips/minecraft.mp3" controls autobuffer="true" title="Minecraft"></audio>
+		    <audio src="clips/honteux.mp3" controls autobuffer="true" title="C'est honteux"></audio>
+		    <audio src="clips/panneau.mp3" controls autobuffer="true" title="Ya pas de panneaux"></audio>
+		    <audio src="clips/ah.mp3" controls autobuffer="true" title="Ah"></audio>
+		    <audio src="clips/projet.mp3" controls autobuffer="true" title="Parce ce que c'est notre projet"></audio>
+            <audio src="clips/buzzer.mp3" controls autobuffer="true" title="Buzzer"></audio>
+            <audio src="clips/qpuc.mp3" controls autobuffer="true" title="Question pour un champion"></audio>
+            <audio src="clips/corona.mp3" controls autobuffer="true" title="Coronavirus conard de virus"></audio>
+            <audio src="clips/qvgdm.mp3" controls autobuffer="true" title="Qui veux gagner des millions"></audio>
+            <audio src="clips/mii.mp3" controls autobuffer="true" title="Theme mii"></audio>
+            <audio src="clips/wii sport.mp3" controls autobuffer="true" title="wii sport"></audio>
+            <audio src="clips/coffin.mp3" controls autobuffer="true" title="Coffin Dance"></audio>
+            <audio src="clips/nein.mp3" controls autobuffer="true" title="Nein Nein Nein"></audio>
+            <audio src="clips/poudre.mp3" controls autobuffer="true" title="Poudre de perlinpinpin"></audio>
+            <audio src="clips/nuclear.mp3" controls autobuffer="true" title="Alerte Nucleaire"></audio>
+            <audio src="clips/sa maman.mp3" controls autobuffer="true" title="Tchoung ta grosse mere la pute"></audio>
+            <audio src="clips/vero.mp3" controls autobuffer="true" title="Veronique fait un infarctus"></audio>
+            <audio src="clips/clair.mp3" controls autobuffer="true" title="Mais oui c'est clair"></audio>
+            <audio src="clips/hymne fr.mp3" controls autobuffer="true" title="Hymne Français"></audio>
+            <audio src="clips/congo.mp3" controls autobuffer="true" title="Congolexicomatisation"></audio>
+            <audio src="clips/sardines.mp3" controls autobuffer="true" title="Les Sardines"></audio>
+            <audio src="clips/sossur.mp3" controls autobuffer="true" title="Sossur"></audio>
+            <audio src="clips/halo.mp3" controls autobuffer="true" title="Halo Theme"></audio>
+            <audio src="clips/ass.mp3" controls autobuffer="true" title="Musique d'ascenseur"></audio>
+            <audio src="clips/ikea.mp3" controls autobuffer="true" title="Musique Ikea"></audio>
+            <audio src="clips/patrick.mp3" controls autobuffer="true" title="On attend pas Patrick"></audio>
+            <audio src="clips/illuminati.mp3" controls autobuffer="true" title="Illuminaty"></audio>
+            <audio src="clips/v.mp3" controls autobuffer="true" title="Je pete ma bière"></audio>
+            <audio src="clips/pokemon go.mp3" controls autobuffer="true" title="I play Pokemon Go"></audio>
+            <audio src="clips/2boule.mp3" controls autobuffer="true" title="Les 2 Boules d'un mec"></audio>
+            <audio src="clips/baptiste.mp3" controls autobuffer="true" title="Qu'est ce que tu fait Baptiste"></audio>
+            <audio src="clips/jesuis.mp3" controls autobuffer="true" title="Mais si je suis très net"></audio>
+            <audio src="clips/merde.mp3" controls autobuffer="true" title="C'est de la merde"></audio>
+            <audio src="clips/moijeveux.mp3" controls autobuffer="true" title="Je veux faire l'amour"></audio>
+            <audio src="clips/peter.mp3" controls autobuffer="true" title="La péter à la Monique"></audio>
+            <audio src="clips/vapeter.mp3" controls autobuffer="true" title="Ca va péter"></audio>
+            <audio src="clips/ph.mp3" controls autobuffer="true" title="Intro ph"></audio>
+            <audio src="clips/ya.mp3" controls autobuffer="true" title="Ya Yaaaa"></audio>
+	        <audio src="clips/kuisine.mp3" controls autobuffer="true" title="La place de la femme c'est à la cuisine"></audio>
+            <audio src="clips/tkt.mp3" controls autobuffer="true" title="TKT ça bien se passer"></audio>
+            <audio src="clips/ok.mp3" controls autobuffer="true" title="Je suis pas venu ici pour souffrir OK"></audio>
+            <audio src="clips/deg.mp3" controls autobuffer="true" title="C'est dégueulasse"></audio>
+            <audio src="clips/decide.mp3" controls autobuffer="true" title="C'est pas toi qui décide"></audio>
+            <audio src="clips/wow.mp3" controls autobuffer="true" title="WOW"></audio>
+            <audio src="clips/misterv.mp3" controls autobuffer="true" title="Je vais  le démarer c't'enculer"></audio>
+
+
+    	</div>
+    </body>
+</html>
