@@ -1,0 +1,22 @@
+ button {
+	       -moz-border-radius: 5px;
+	       background: red;
+	       border: 3px solid lime;
+	       display: inline-block;
+	       cursor: pointer;
+	       padding: 3px 5px;
+	       margin: 5px;
+	   }
+
+body /* mettre un fond pour le html*/
+{
+    background-image: url("pipe.jpg");
+}
+
+h1 /* modifie les titres*/
+{
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+	color: purple ;
+}
