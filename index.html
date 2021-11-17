@@ -4,25 +4,25 @@
 	<link rel="stylesheet" type="text/css" href="f.css">
 	<script type="text/javascript" src="voila.js"></script>
 	<head>
-			<title>SoundBoard par moi</title>
+		<title>SoundBoard par moi</title>
 	</head>
 	<body>
 		<div id="doc">
-        	<h1>
-                <i>Ma Soundboard</i>
-            </h1>
+        		<h1>
+                		<i>Ma Soundboard</i>
+            	</h1>
         <!-- JS here to prevent 'flash' of all the default audio players -->
         	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
         	<script type="text/javascript" charset="utf-8">
           		$(function() {
-               		$("audio").removeAttr("controls").each(function(i, audioElement) {
-                    	var audio = $(this);
-                    	var that = this; //closure to keep reference to current audio tag
-                    	$("#doc").append($('<button>'+audio.attr("title")+'</button>').click(function(){
-                        	that.play();
-                    	}));
-                	});
-            	});
+               			$("audio").removeAttr("controls").each(function(i, audioElement) {
+                    			var audio = $(this);
+                    			var that = this; //closure to keep reference to current audio tag
+                    			$("#doc").append($('<button>'+audio.attr("title")+'</button>').click(function(){
+                        			that.play();
+                    			}));
+                		});
+            		});
         	</script>
     	    <audio src="clips/ouais.mp3" controls autobuffer="true" title="Ouais Ouais Ouais"></audio>
     	    <audio src="clips/tg.mp3" controls autobuffer="true" title="Ta gueule fanta"></audio>
@@ -34,13 +34,13 @@
     	    <audio src="clips/jc.mp3" controls autobuffer="true" title="John Cena"></audio>
     	    <audio src="clips/bien-evidemment.mp3" controls autobuffer="true" title="bien evidemment"></audio>
     	    <audio src="clips/Miaou.mp3" controls autobuffer="true" title="Miaou Miaou negga"></audio>
-		    <audio src="clips/eglise.mp3" controls autobuffer="true" title="Divin"></audio>
-		    <audio src="clips/fbi.mp3" controls autobuffer="true" title="Fbi"></audio>
-		    <audio src="clips/minecraft.mp3" controls autobuffer="true" title="Minecraft"></audio>
-		    <audio src="clips/honteux.mp3" controls autobuffer="true" title="C'est honteux"></audio>
-		    <audio src="clips/panneau.mp3" controls autobuffer="true" title="Ya pas de panneaux"></audio>
-		    <audio src="clips/ah.mp3" controls autobuffer="true" title="Ah"></audio>
-		    <audio src="clips/projet.mp3" controls autobuffer="true" title="Parce ce que c'est notre projet"></audio>
+	    <audio src="clips/eglise.mp3" controls autobuffer="true" title="Divin"></audio>
+            <audio src="clips/fbi.mp3" controls autobuffer="true" title="Fbi"></audio>
+            <audio src="clips/minecraft.mp3" controls autobuffer="true" title="Minecraft"></audio>
+            <audio src="clips/honteux.mp3" controls autobuffer="true" title="C'est honteux"></audio>
+	    <audio src="clips/panneau.mp3" controls autobuffer="true" title="Ya pas de panneaux"></audio>
+            <audio src="clips/ah.mp3" controls autobuffer="true" title="Ah"></audio>
+	    <audio src="clips/projet.mp3" controls autobuffer="true" title="Parce ce que c'est notre projet"></audio>
             <audio src="clips/buzzer.mp3" controls autobuffer="true" title="Buzzer"></audio>
             <audio src="clips/qpuc.mp3" controls autobuffer="true" title="Question pour un champion"></audio>
             <audio src="clips/corona.mp3" controls autobuffer="true" title="Coronavirus conard de virus"></audio>
@@ -74,7 +74,7 @@
             <audio src="clips/vapeter.mp3" controls autobuffer="true" title="Ca va péter"></audio>
             <audio src="clips/ph.mp3" controls autobuffer="true" title="Intro ph"></audio>
             <audio src="clips/ya.mp3" controls autobuffer="true" title="Ya Yaaaa"></audio>
-	        <audio src="clips/kuisine.mp3" controls autobuffer="true" title="La place de la femme c'est à la cuisine"></audio>
+	    <audio src="clips/kuisine.mp3" controls autobuffer="true" title="La place de la femme c'est à la cuisine"></audio>
             <audio src="clips/tkt.mp3" controls autobuffer="true" title="TKT ça bien se passer"></audio>
             <audio src="clips/ok.mp3" controls autobuffer="true" title="Je suis pas venu ici pour souffrir OK"></audio>
             <audio src="clips/deg.mp3" controls autobuffer="true" title="C'est dégueulasse"></audio>
